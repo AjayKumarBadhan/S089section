@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cloud Computing</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #ffffff);
+      color: #333;
+    }
+    header {
+      background: #0288d1;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    nav {
+      background: #03a9f4;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .container {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .section img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .section h2 {
+      color: #0288d1;
+      margin-bottom: 10px;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card {
+      flex: 1;
+      min-width: 250px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background: #0288d1;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Understanding Cloud Computing</h1>
+    <p>Revolutionizing the way we store, access, and process data</p>
+  </header>
+
+  <nav>
+    <a href="#overview">Overview</a>
+    <a href="#benefits">Benefits</a>
+    <a href="#services">Services</a>
+    <a href="#providers">Top Providers</a>
+  </nav>
+
+  <div class="container">
+    <section id="overview" class="section">
+      <h2>What is Cloud Computing?</h2>
+      <p>
+        Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, and more—over the internet ("the cloud") to offer faster innovation, flexible resources, and economies of scale.
+      </p>
+      <img src="https://www.oracle.com/a/ocom/img/cw19-cloud-computing.png" alt="Cloud Computing Overview" />
+    </section>
+
+    <section id="benefits" class="section">
+      <h2>Key Benefits</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Scalability</h3>
+          <p>Easily scale up or down your IT resources based on demand, saving costs and improving performance.</p>
+        </div>
+        <div class="card">
+          <h3>Cost Efficiency</h3>
+          <p>Pay-as-you-go pricing helps organizations avoid the capital expense of buying hardware and software.</p>
+        </div>
+        <div class="card">
+          <h3>Reliability</h3>
+          <p>Cloud providers offer data backup, disaster recovery, and high availability architectures.</p>
+        </div>
+        <div class="card">
+          <h3>Accessibility</h3>
+          <p>Access data and applications from anywhere in the world with an internet connection.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <h2>Types of Cloud Services</h2>
+      <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Nq0zy5oxWlhUMRF-_XPzlg.png" alt="Cloud Service Models" />
+      <ul>
+        <li><strong>IaaS (Infrastructure as a Service):</strong> Virtual machines, networks, storage (e.g., AWS EC2)</li>
+        <li><strong>PaaS (Platform as a Service):</strong> Runtime environments, DBs, app hosting (e.g., Google App Engine)</li>
+        <li><strong>SaaS (Software as a Service):</strong> Software over the web (e.g., Gmail, Office 365)</li>
+      </ul>
+    </section>
+
+    <section id="providers" class="section">
+      <h2>Top Cloud Providers</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Amazon Web Services (AWS)</h3>
+          <p>World's most comprehensive cloud platform, offering over 200 services from data centers globally.</p>
+        </div>
+        <div class="card">
+          <h3>Microsoft Azure</h3>
+          <p>Integrated cloud services for building, testing, deploying, and managing applications.</p>
+        </div>
+        <div class="card">
+          <h3>Google Cloud Platform (GCP)</h3>
+          <p>Advanced machine learning, big data analytics, and scalable infrastructure.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 CloudTech Insights | Designed for educational purpose</p>
+  </footer>
+
+</body>
+</html>
